@@ -1,0 +1,14 @@
+{
+    "liveSassCompile.settings.formats": [
+        // More Complex
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "liveServer.settings.port": 5501,
+    // "liveSassCompile.settings.excludeList": [
+    //     "bootstrap*[!(file1|file2)].scss"
+    // ]
+}

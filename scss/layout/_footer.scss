@@ -1,0 +1,37 @@
+.footer{
+    .subscribe-background{
+        background-image:url('../../img/layout/footer/photo-1532413992378-f169ac26fff0.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    } 
+    .subscribe-position{
+        padding-top: 312px;
+        h2{
+            margin-bottom: 20px;
+        }
+    }
+    form{
+        input{
+            border-radius: auto 0 0 auto;
+        }
+        button{
+            border-radius: 0 auto auto 0;
+        }
+    } 
+    .more-links{
+        a{padding:1.5px 7.5px}
+        li~li{
+            margin-left: 36px;
+        }
+    } 
+    .bottom-nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    img{
+        @include md{
+            height: 23px;
+        }
+    }
+}

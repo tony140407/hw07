@@ -1,0 +1,19 @@
+.productMenu{
+    margin-bottom: 80px;
+    background-color: $secondary;
+    @include md{
+        display: none;
+    }
+    ul{
+        padding: 0;
+    }
+    a{
+        display: block;
+        // font-size: 16px;
+        padding: 14px 0;
+        margin-right: 28px;
+        &:hover{
+            background-color: $primary;
+        }
+    }
+}

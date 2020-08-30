@@ -1,0 +1,14 @@
+@import "./config/reset";
+@import "./bootstrap/bootstrap.scss";
+@import "./config/variables";
+@import "./config/mixin";
+@import "./config/common-style";
+
+@import "./layout/nav";
+@import "./layout/productMenu";
+@import "./layout/footer";
+
+@import "./pages/index";
+@import "./pages/productList";
+@import "./pages/registered"
+

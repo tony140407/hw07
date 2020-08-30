@@ -1,0 +1,19 @@
+.registered{
+    .member-centre{
+        li{
+            padding: 5px 2px;
+        }
+        li:hover a{
+            border-bottom: 3px solid $primary;
+        }
+        @include md{
+            li:nth-child(1) a{
+                border-bottom: 3px solid $primary;
+            }
+        }
+        
+    }
+    form{
+        color: $gray-light;
+    }
+}

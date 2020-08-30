@@ -1,0 +1,28 @@
+$font-size:16px;
+$font-size-S:14px;
+$font-size-M:18px;
+$font-size-L:20px;
+
+
+
+.text-size{
+    font-size: $font-size;
+}
+.text-size-S{
+    font-size: $font-size-S;
+}
+.text-size-M{
+    font-size: $font-size-M;
+}
+.text-size-L{
+    font-size: $font-size-L;
+}
+// color
+$primary:       #AC8A46;
+$secondary:     #916000;
+$light:         #E0E0E0;
+$dark:          #8D8D8D;
+$white:          #fff;
+$gray:             #848484;
+$black:          #000;
+

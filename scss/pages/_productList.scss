@@ -1,0 +1,14 @@
+.productList{
+     .list h4{
+       @include lg{
+           font-size: 20px;
+       } 
+    }
+    .change-page-btn button{
+        font-size: $font-size-L;
+        &:hover{
+            border-bottom:2px solid  $primary;
+            color:$primary;
+        }
+    }
+}
