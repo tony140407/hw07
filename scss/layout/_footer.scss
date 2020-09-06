@@ -1,7 +1,7 @@
 .footer{
     .subscribe-background{
         background-image:url('../img/layout/footer/bg.png');
-        background-repeat: no-repeat;
+        background-size:cover;
         background-position: center;
         height: 600px;
     } 
@@ -29,9 +29,13 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    img{
-        @include md{
-            height: 23px;
+    .logo-and-copyright{
+        width: auto;
+        @include sm{
+            width: 100%;
         }
+    }
+    img{
+        height: 38px;
     }
 }

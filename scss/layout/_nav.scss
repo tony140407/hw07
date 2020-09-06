@@ -9,11 +9,15 @@
         border:none;
         
     }
-    .nav-item:hover a{
+    .nav-item{
+        a{
+            border:1px solid Transparent;
+        }
+        &:hover a{
 
-        border:1px solid $primary;
-    }
-
+            border:1px solid $primary;
+        }
+    } 
 }
 .shopping-cart::after{
     content: "3";
